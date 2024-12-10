@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/anna-skating-app/static/css/main.9accc939.css",
-    "main.js": "/anna-skating-app/static/js/main.dab21d87.js",
+    "main.js": "/anna-skating-app/static/js/main.b9a1b66d.js",
     "static/js/453.74b7128b.chunk.js": "/anna-skating-app/static/js/453.74b7128b.chunk.js",
     "static/media/photo2.jpg": "/anna-skating-app/static/media/photo2.daa5ca03eb8f491491ff.jpg",
     "static/media/photo1.jpg": "/anna-skating-app/static/media/photo1.110cc09529a1e96987b9.jpg",
     "static/media/photo4.jpg": "/anna-skating-app/static/media/photo4.4eae10532cf6d9c83c7d.jpg",
     "static/media/photo3.jpg": "/anna-skating-app/static/media/photo3.e819c60377c06d3d8df8.jpg",
+    "static/media/my-photo-new.jpg": "/anna-skating-app/static/media/my-photo-new.95448f81b47eed09cead.jpg",
     "static/media/photo5.jpg": "/anna-skating-app/static/media/photo5.7a8fcf04012331a3a20a.jpg",
     "index.html": "/anna-skating-app/index.html",
     "main.9accc939.css.map": "/anna-skating-app/static/css/main.9accc939.css.map",
-    "main.dab21d87.js.map": "/anna-skating-app/static/js/main.dab21d87.js.map",
+    "main.b9a1b66d.js.map": "/anna-skating-app/static/js/main.b9a1b66d.js.map",
     "453.74b7128b.chunk.js.map": "/anna-skating-app/static/js/453.74b7128b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9accc939.css",
-    "static/js/main.dab21d87.js"
+    "static/js/main.b9a1b66d.js"
   ]
 }
