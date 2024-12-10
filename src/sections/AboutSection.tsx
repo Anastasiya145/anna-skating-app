@@ -6,7 +6,7 @@ import photo from "../assets/images/my-photo-new.jpg";
 
 const AboutSection = () => {
   return (
-    <SectionLayout title="Привет! Меня зовут Аня" id="about">
+    <SectionLayout title="Bonjour! Je m'appelle Anya" id="about">
       <Grid container sx={{ marginTop: 5, justifyContent: "space-between" }}>
         <Grid size={4}>
           <img
