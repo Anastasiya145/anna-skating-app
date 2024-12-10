@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.9accc939.css",
-    "main.js": "/static/js/main.8bf1d43f.js",
-    "static/js/453.74b7128b.chunk.js": "/static/js/453.74b7128b.chunk.js",
-    "static/media/photo2.jpg": "/static/media/photo2.daa5ca03eb8f491491ff.jpg",
-    "static/media/photo1.jpg": "/static/media/photo1.110cc09529a1e96987b9.jpg",
-    "static/media/photo4.jpg": "/static/media/photo4.4eae10532cf6d9c83c7d.jpg",
-    "static/media/photo3.jpg": "/static/media/photo3.e819c60377c06d3d8df8.jpg",
-    "static/media/photo5.jpg": "/static/media/photo5.7a8fcf04012331a3a20a.jpg",
-    "index.html": "/index.html",
-    "main.9accc939.css.map": "/static/css/main.9accc939.css.map",
-    "main.8bf1d43f.js.map": "/static/js/main.8bf1d43f.js.map",
-    "453.74b7128b.chunk.js.map": "/static/js/453.74b7128b.chunk.js.map"
+    "main.css": "/anna-skating-app/static/css/main.9accc939.css",
+    "main.js": "/anna-skating-app/static/js/main.dab21d87.js",
+    "static/js/453.74b7128b.chunk.js": "/anna-skating-app/static/js/453.74b7128b.chunk.js",
+    "static/media/photo2.jpg": "/anna-skating-app/static/media/photo2.daa5ca03eb8f491491ff.jpg",
+    "static/media/photo1.jpg": "/anna-skating-app/static/media/photo1.110cc09529a1e96987b9.jpg",
+    "static/media/photo4.jpg": "/anna-skating-app/static/media/photo4.4eae10532cf6d9c83c7d.jpg",
+    "static/media/photo3.jpg": "/anna-skating-app/static/media/photo3.e819c60377c06d3d8df8.jpg",
+    "static/media/photo5.jpg": "/anna-skating-app/static/media/photo5.7a8fcf04012331a3a20a.jpg",
+    "index.html": "/anna-skating-app/index.html",
+    "main.9accc939.css.map": "/anna-skating-app/static/css/main.9accc939.css.map",
+    "main.dab21d87.js.map": "/anna-skating-app/static/js/main.dab21d87.js.map",
+    "453.74b7128b.chunk.js.map": "/anna-skating-app/static/js/453.74b7128b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9accc939.css",
-    "static/js/main.8bf1d43f.js"
+    "static/js/main.dab21d87.js"
   ]
 }
