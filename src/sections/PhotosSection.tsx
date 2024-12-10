@@ -13,7 +13,7 @@ const PhotosSection = () => {
   const photos = [photo1, photo2, photo3, photo4, photo5];
 
   return (
-    <SectionLayout title="Моменты на льду">
+    <SectionLayout title="Moments sur la glace">
       <Carousel showThumbs={false} autoPlay infiniteLoop>
         {photos.map((photo, index) => (
           <Box key={index}>

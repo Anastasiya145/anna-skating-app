@@ -2,7 +2,7 @@ import React from "react";
 import { Stack, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import SectionLayout from "../components/SectionLayout.tsx";
-import photo from "../assets/images/photo1.jpg";
+import photo from "../assets/images/my-photo-new.jpg";
 
 const AboutSection = () => {
   return (
@@ -24,18 +24,20 @@ const AboutSection = () => {
         <Grid size={6}>
           <Stack spacing={2}>
             <Typography variant="body1">
-              Я профессиональная фигуристка с многолетним опытом. Фигурное
-              катание для меня — это не просто спорт, это искусство, страсть и
-              возможность вдохновлять других.
+              Je suis une patineuse artistique professionnelle avec de
+              nombreuses années d'expérience. Figuré le patinage pour moi n'est
+              pas seulement un sport, c'est un art, une passion et l’opportunité
+              d’inspirer les autres.
             </Typography>
             <Typography variant="body1">
-              Я обожаю кататься на льду и активно участвую в соревнованиях, а
-              также являюсь частью команды по синхронному катанию.
+              J'adore patiner sur glace et je participe activement à des
+              compétitions, et Je fais également partie de l'équipe de patinage
+              synchronisé.
             </Typography>
             <Typography variant="body1">
-              Кроме фигурного катания, я увлечена информатикой. Именно поэтому я
-              создала этот сайт, чтобы объединить свои увлечения и поделиться
-              ими с миром.
+              Outre le patinage artistique, je suis passionné par
+              l'informatique. C'est pourquoi je créé ce site pour allier mes
+              passions et partager qu'ils reposent en paix.
             </Typography>
             <Typography
               variant="body1"
@@ -44,7 +46,7 @@ const AboutSection = () => {
               <span role="img" aria-label="location" style={{ marginRight: 8 }}>
                 📍
               </span>
-              Я нахожусь в городе Caen, France
+              Je suis à Caen, France
             </Typography>
           </Stack>
         </Grid>

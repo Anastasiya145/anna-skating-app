@@ -31,7 +31,7 @@ const IntroSection = () => {
             letterSpacing: 2,
           }}
         >
-          Добро пожаловать в мир фигурного катания!
+          Bienvenue dans le monde du patinage artistique !
         </Typography>
         <Typography
           variant="body1"
@@ -43,8 +43,9 @@ const IntroSection = () => {
             lineHeight: 1.6,
           }}
         >
-          Я — фигуристка, которая живет этим искусством и движением. Тут вы
-          найдете мои истории, опыт, а также мои достижения на льду.
+          Je suis une patineuse passionnée par cet art et ce mouvement. Ici,
+          vous découvrirez mes histoires, mon expérience ainsi que mes
+          réalisations sur la glace.
         </Typography>
         <Button
           variant="contained"
@@ -59,7 +60,7 @@ const IntroSection = () => {
           }}
           href="#about"
         >
-          Узнать больше
+          En savoir plus
         </Button>
       </motion.div>
     </Box>

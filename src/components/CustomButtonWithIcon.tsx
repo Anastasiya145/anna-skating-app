@@ -19,8 +19,13 @@ const CustomButtonWithIcon: FC<CustomButtonWithIconProps> = ({
       variant="contained"
       target="_blank"
       sx={{
-        backgroundColor: "#fff",
-        color: (theme) => theme.palette.primary.dark,
+        backgroundColor: (theme) => theme.palette.secondary.main,
+        color: "#fff",
+        fontWeight: "bold",
+        padding: "10px 20px",
+        "&:hover": {
+          backgroundColor: (theme) => theme.palette.secondary.dark,
+        },
       }}
       startIcon={<Icon />}
     >

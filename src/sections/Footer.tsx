@@ -10,13 +10,13 @@ const Footer = () => {
     <Box
       sx={{
         backgroundColor: (theme) => theme.palette.primary.main,
-        padding: 2,
+        padding: 3,
         marginTop: 8,
       }}
     >
       <Container sx={{ textAlign: "center" }}>
-        <Typography variant="body1" mb={2}>
-          Свяжитесь со мной:
+        <Typography variant="h3" mb={3} sx={{ fontWeight: 500 }}>
+          Contactez-moi :
         </Typography>
         <Box sx={{ display: "flex", justifyContent: "center", gap: 2 }}>
           <CustomButtonWithIcon

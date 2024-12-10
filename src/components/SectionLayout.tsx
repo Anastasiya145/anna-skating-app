@@ -10,7 +10,7 @@ type SectionTitleProps = {
 
 const SectionLayout: FC<SectionTitleProps> = ({ title, children, id }) => {
   return (
-    <Container sx={{ px: 4, py: 8, minHeight: "500px" }} id={id}>
+    <Container sx={{ px: 4, py: 8, minHeight: "400px" }} id={id}>
       <Box>
         <SectionTitle title={title} />
         {children}

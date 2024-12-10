@@ -14,8 +14,8 @@ const App = () => {
       <IntroSection />
 
       <AboutSection />
-      <PhotosSection />
       <AwardsSection />
+      <PhotosSection />
       <Footer />
     </Box>
   );

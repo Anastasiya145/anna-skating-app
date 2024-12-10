@@ -1,38 +1,30 @@
 import React from "react";
-import Grid from "@mui/material/Grid2";
 import SectionLayout from "../components/SectionLayout.tsx";
-import { Card, CardContent, CardMedia, Typography } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 
 const AwardsSection = () => {
-  const awards = [
-    { title: "Золотая медаль", image: "/images/award1.jpg" },
-    { title: "Приз зрительских симпатий", image: "/images/award2.jpg" },
+  const career = [
+    {
+      title: "école de patinage artistique “LIDER”, Ukraine",
+      period: "2010 - 2023",
+    },
+    { title: "membre de l'équipe nationale d'Ukraine", period: "2021 - 2023" },
+    { title: "club “AXEL”, Caen, France", period: "2023" },
   ];
 
   return (
-    <SectionLayout title="Награды">
-      <Grid container spacing={4}>
-        {awards.map((award, index) => (
-          <Grid size={12} key={index}>
-            <Card sx={{ boxShadow: 3 }}>
-              <CardMedia
-                component="img"
-                image={award.image}
-                alt={award.title}
-                height="200"
-              />
-              <CardContent>
-                <Typography
-                  variant="h6"
-                  sx={{ textAlign: "center", fontWeight: "bold" }}
-                >
-                  {award.title}
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
+    <SectionLayout title="Mon experience professionnel">
+      {career.map((item, index) => (
+        <Stack key={index} spacing={2} direction="row">
+          <Typography
+            variant="body1"
+            sx={{ fontWeight: 600, minWidth: "100px" }}
+          >
+            {item.period}
+          </Typography>
+          <Typography variant="body1">{item.title}</Typography>
+        </Stack>
+      ))}
     </SectionLayout>
   );
 };
